@@ -16,6 +16,10 @@ public class RoleDAO {
 	 ps.setString(2, roleTitle);
 	 ps.executeUpdate();
 	 System.out.println(roleTitle + "salary has been updated to:" + newSalary);
+ }
+ catch (SQLException e) {
+	 System.out.println("An error has occured while updating the salary");
+	 e.printStackTrace();
 	 
 	 
 }}

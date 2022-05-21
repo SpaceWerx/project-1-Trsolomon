@@ -10,11 +10,15 @@ public class User_services {
 		List<Users> users = uDAO.getUsers();
 		return users;
 		
-		public void Users (Users newUsers) {
+		public void Users(Users newUsers) {
 			uDAO.insertUsers(newUsers);
 			
 			
 		}
 
+	}
+	public List<Users> getusersbyID(int idInput) {
+		// TODO Auto-generated method stub
+		return null;
 	}}
 
