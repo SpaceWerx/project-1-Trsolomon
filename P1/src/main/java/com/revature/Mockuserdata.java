@@ -32,6 +32,6 @@ public class Mockuserdata<Users> {
 	
 	}
 	
-	public List<User> getUsers() { return users; }
+	public List<User> getUsers() { return (List<User>) users; }
 
 }
