@@ -23,10 +23,9 @@ reimbursements.add(Reimbursmenet_APPROVED_2);
 reimbursements.add(Reimbursement_DENIED_1);
 
 
-}
 
-public List<Reimbursement> getReimbursements() { return reimbursements; }
-
+public List<Reimbursement> getReimbursements() { return reimbursements; {
 
 
-}
+
+}}}
