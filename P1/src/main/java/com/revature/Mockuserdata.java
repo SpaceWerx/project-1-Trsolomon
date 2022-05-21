@@ -9,9 +9,9 @@ import org.eclipse.jetty.server.Authentication.User;
 
 import Models.Roles;
 
-public class Mockuserdata {
+public class Mockuserdata<Users> {
 	private final List<User> users = new ArrayList<>();
-	public Mockuserdata() {
+	public void Mockuserdata() {
 		int ID;
 		String Username;
 		String Password;
@@ -32,6 +32,6 @@ public class Mockuserdata {
 	
 	}
 	
-	
+	public List<User> getUsers() { return users; }
 
 }
