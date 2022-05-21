@@ -35,10 +35,16 @@ public class Menu {
 				System.out.println();
 				System.out.println();
 				System.out.println();
-				
+			}
 				break; 
-				
-				case "employees": {
+				case "Users": {
+				List<Users> users = us.getUsers();
+				for (Users u : users) {
+					System.out.println(u);
+					System.out.println("");
+					System.out.println("");
+					System.out.println("");
+				}
 				
 			}
 			
@@ -46,6 +52,6 @@ public class Menu {
 		}
 		
 		
-	}
-}
+	
+		}}
 	
