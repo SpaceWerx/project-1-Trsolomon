@@ -44,14 +44,44 @@ public class Menu {
 					System.out.println("");
 					System.out.println("");
 					System.out.println("");
+					System.out.println("");
 				}
-				
+				break;
+				}
+				case "UsersbyID": {
+					System.out.println("Which user ID would you like to search for?");
+					
+					int idInput = scan.nextInt();
+					scan.nextLine();
+					
+					
+					List<Users> users = us.getusersbyID(idInput);
+					
+					for(Users user: users) {
+						System.out.println(user);
+						
+					}
+							System.out.println("");
+							System.out.println("");
+							System.out.println("");
+							System.out.println("");
+							
+							break;
+				}
+							case "UsersbyTitle":{
+								System.out.println("Search for user by Title");
+								
+							}
+						}
+					
+				}
 			}
 			
-			}
+			
 		}
 		
 		
 	
-		}}
+		}
 	
+}
