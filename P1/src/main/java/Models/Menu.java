@@ -70,6 +70,7 @@ public class Menu {
 				}
 							case "UsersbyTitle":{
 								System.out.println("Search for user by Title");
+							
 								
 							}
 						}

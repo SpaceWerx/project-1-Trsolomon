@@ -1,5 +1,6 @@
 package com.revature;
 
+import java.awt.Menu;
 import java.sql.Connection;
 import java.sql.SQLException;
 
@@ -15,4 +16,6 @@ public static void main(String[] args) throws SQLException {
 	System.out.println("connection failed");
 	e.printStackTrace();
 }
+Menu menu = new Menu();
+menu.displaymenu();
 }
