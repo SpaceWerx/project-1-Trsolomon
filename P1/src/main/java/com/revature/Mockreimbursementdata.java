@@ -2,18 +2,21 @@ package com.revature;
 
 import java.util.ArrayList;
 import java.util.List;
+import Models.Reimbursement;
 
-public class Mockreimbursementdata<Reimbursement> {
+import Models.Type;
+import Models.Status;
+public class Mockreimbursementdata {
 	private final List<Reimbursement> reimbursements = new ArrayList<>();
 public void MockReimbursementData() {
 }
-Mockuserdata userData = new Mockuserdata()
+Mockuserdata userData = new Mockuserdata();
 
-Reimbursement_TO_PROCESS_1 = new Reimbursement(id: 1, author 1, resolver 0, description: "Amazon Web Services", ReimbursementType.other, Status.Pending, amount: 400.00);
-Reimbursement_TO_PROCESS_2 = new Reimbursement(id: 2, author 2, resolver 0, description: "Travel out of state", ReimbursementType.travel, Status.Pending, amount: 550.00);
-Reimbursement_APPROVED_1 = new Reimbursment(id: 3, author 1, resolver 3, description: "Free Dinner for travel purposes", ReimbursementType.food,Status.Approved, amount: 50.00);
-Reimbursement_APPROVED_2 = new Reimbursement(id:4, author 2, resolver 4, description: "3 nights stay at the Houston location", ReimbursementType.lodging, Status.Approved, amount: 450.00);
-Reimbursement_DENIED_1 = new Reimbursement(id:5, author 1, resolver 3, description: "Rental car to use for personal reasons", ReimbursementType.travel, Status.Denied, amount: 220.00);
+Reimbursement Reimbursement_TO_PROCESS_1 = new Reimbursement(1, 1, 0, "Amazon Web Services", Type.other, Status.Pending, 400.00);
+Reimbursement Reimbursement_TO_PROCESS_2 = new Reimbursement(2, 2, 0, "Travel out of state", Type.travel, Status.Pending, 550.00);
+Reimbursement Reimbursement_APPROVED_1 = new Reimbursment(3, 1, 3, "Free Dinner for travel purposes", Type.food,Status.Approved, 50.00);
+Reimbursement Reimbursement_APPROVED_2 = new Reimbursement(4, 2, 4, "3 nights stay at the Houston location", Type.lodging, Status.Approved, 450.00);
+Reimbursement Reimbursement_DENIED_1 = new Reimbursement(5, 1, 3, "Rental car to use for personal reasons", Type.travel, Status.Denied, 220.00);
 
 
 reimbursements.add(Reimbursement_TO_PROCESS_1);
