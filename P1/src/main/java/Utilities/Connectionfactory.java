@@ -54,7 +54,7 @@ public class Connectionfactory {
     	//we'll hardcode them for now, but I'll show a way to hide the credentials in environment variables
     	
     	//the url to my database schema
-    	String url = "jdbc:postgresql://localhost:5432/postgres?currentSchema=p1demo";
+    	String url = "jdbc:postgresql://project-one.cmzf3imydhe1.us-east-2.rds.amazonaws.com:5432/postgres?currentSchema=p1demo";
     	//your postgres username (should just be postgres)
     	String username = "postgres";
     	//your postgres password (hopefully just "password")
