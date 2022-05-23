@@ -1,5 +1,6 @@
 package Models;
 
+import java.sql.SQLException;
 import java.util.List;
 import java.util.Scanner;
 
@@ -10,7 +11,7 @@ public class Menu {
 	User_services us = new User_services();
 	Role_Services rs = new Role_Services();
 	
-	public void displaymenu() {
+	public void displaymenu() throws SQLException {
 		boolean displaymenu = true;
 		Scanner scan = new Scanner(System.in);
 		
