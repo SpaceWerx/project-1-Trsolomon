@@ -35,13 +35,18 @@ public class UsersDAO {
 					
 			UsersList.add(u);
 		}
-		return UsersList;{
-	
+		return UsersList;
+		}
 		catch(SQLException u) {
 			System.out.println("Something went wrong while grabbing the employees");
-			e.printstacktrace();
+			u.printStackTrace();
 					
-			
+		}
 		
-	}}}}
+	}
+
+	public void insertUsers(Users newUsers) {
+		// TODO Auto-generated method stub
+		
+	}
 
